@@ -1,0 +1,27 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Chat Completions",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/playground/tmdb/chat_completions.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "envFile": "${workspaceFolder}/.env",
+            "cwd": "${workspaceFolder}/playground/tmdb",
+            "args": []
+        },
+        {
+            "name": "Client Responses",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/playground/tmdb/client_responses.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "envFile": "${workspaceFolder}/.env",
+            "cwd": "${workspaceFolder}/playground/tmdb",
+            "args": []
+        }
+    ]
+}
